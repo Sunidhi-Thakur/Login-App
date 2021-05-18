@@ -4,13 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login_bg2"
     tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Username"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="@string/Login"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="18dp"
+        android:textColor="#236EAA"/>
 
     <EditText
         android:id="@+id/Username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:drawableStart="@drawable/ic_user"
         android:hint="@string/email"
         android:autofillHints="@string/email"
         android:inputType="textEmailAddress"
@@ -25,6 +39,7 @@
         android:ems="10"
         android:inputType="textPassword"
         android:autofillHints="@string/password"
+        android:drawableStart="@drawable/outline_lock_24"
         android:layout_marginBottom="8dp"
         android:hint="@string/password"
         android:layout_centerInParent="true"/>
