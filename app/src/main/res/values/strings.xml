@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Application 1</string>
+    <string name="username">Username</string>
+    <string name="Login">Login</string>
+    <string name="name">Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="log_out">Log Out</string>
+    <string name="logout">Log Out</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="or">OR</string>
+    <string name="age">Age</string>
+    <string name="gender">Select Gender</string>
+    <string name="select_occupation">Select Occupation</string>
+    <string-array name="occupation_array">
+        <item>Android Developer</item>
+        <item>Front-End Developer</item>
+        <item>Back-End Developer</item>
+        <item>Software Developer</item>
+        <item>Full Stack Developer</item>
+        <item>Web Developer</item>
+        <item>Q/A</item>
+        <item>Tester</item>
+    </string-array>
+</resources>
